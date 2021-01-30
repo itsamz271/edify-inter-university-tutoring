@@ -1,0 +1,1363 @@
+/*-----------------------------------------*/
+/* BASIC SETUP */
+/*-----------------------------------------*/
+
+
+html {
+    background-color: #fff;
+    font-family: 'Lato', 'Arial', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    height: 100%;
+    text-rendering: optimizeLegibility;
+}
+
+body
+{
+    
+}
+
+/*-----------------------------------------*/
+/* HEADINGS */
+/*-----------------------------------------*/
+
+h1,
+h2,
+h3 {
+    font-weight: 300;
+    text-transform: uppercase;
+    
+}
+
+h1 {
+    color: #fff;
+    margin-top: 0;
+    margin-bottom: 20px;
+    word-spacing: 4px;
+    font-size: 240%;
+    letter-spacing: 1px;
+}
+
+h2 {
+    font-size: 179%;
+    word-spacing: 2px;
+    margin-bottom: 25px;
+    text-align: center;
+    letter-spacing: 1px;
+    
+}
+
+h2:after {
+    display: block;
+    height: 2px;
+    background-color: darkgoldenrod;
+    content: " ";
+    margin: 30px auto;
+    width: 200px;
+    
+}
+
+h3 {
+    font-size: 110%;
+    margin-bottom: 15px;
+    
+}
+
+/*-----------------------------------------*/
+/* HEADINGS */
+/*-----------------------------------------*/
+
+/*-----------------------------------------*/
+/* PARAGRAPHS */
+/*-----------------------------------------*/
+
+.long-copy {
+    line-height: 145%;
+    width: 70%;
+    margin-left: 15%;
+}
+
+.boxParagraph
+{
+    font-size: 90%;
+    line-height: 145%;
+}
+
+
+
+/*-----------------------------------------*/
+/* PARAGRAPHS */
+/*-----------------------------------------*/
+
+
+/*-----------------------------------------*/
+/* HEADER */
+/*-----------------------------------------*/
+
+header{
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.logo {
+    height: 200px;
+    width: auto;
+    float: left;
+}
+
+.main-nav {
+    float: right;
+    list-style: none;
+    margin-right: 10px;
+}
+
+.main-nav li {
+    display: inline-block;
+    margin-left: 40px;
+    margin-top: 80px;
+}
+
+.main-nav li a:link,
+.main-nav li a:visited {
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 90%;
+    border-bottom: 2px solid transparent;
+    padding: 8px 0;
+}
+
+.main-nav li a:hover,
+.main-nav li a:active {
+    border-bottom: 2px solid #735d40;
+    transition: border 0.2s;
+ }   
+.myRow {
+    max-width: 1140px;
+    margin: 0 auto 0 auto;
+    margin: 0 auto;
+
+}
+/*-----------------------------------------*/
+/* HEADERS */
+/*-----------------------------------------*/
+
+/*-----------------------------------------*/
+/* HOMEPAGE */
+/*-----------------------------------------*/
+
+.homeBody{
+    background-image:  linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(Images/homePagePic.jpg);
+	height: 100%;
+    background-size: cover;
+    
+}
+
+.searchBarBox{
+    color: aliceblue; padding-top: 300px;
+}
+
+.stepsBox{
+    background-color:white;
+    height: 100%
+}
+
+.stepsBox .long-copy
+{
+    margin-bottom: 100px;
+}
+
+.stepsBox h2{
+    margin-top: 100px;
+}
+.stepsBox i{
+    margin-bottom: 20px
+}
+
+.stepsBox h3
+{
+    color: darkgoldenrod;
+}
+
+.objectiveBox{
+    background-color: antiquewhite;
+    height: 100%;
+    padding: 100px;
+}
+
+.objectiveBox img{
+    width: 300px;
+    height: 300px;
+}
+
+.tutorRegistration{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+
+.logoText{
+    padding-top: 100px;
+}
+
+.homeBody .site-footer{
+    background-image:  linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(Images/homePagePic.jpg);
+    background-size: cover;
+}
+/*-----------------------------------------*/
+/* HOME PAGE */
+/*-----------------------------------------*/
+
+/*-----------------------------------------*/
+/* TUTOR+TUTEE SIGNUP+LOGIN */
+/*-----------------------------------------*/
+.form-control1{display:block;width:100%;height:34px;padding:6px 12px;font-size:14px;line-height:1.42857143;color:#555;background-color:#fff;background-image:none;border:1px solid #ccc;border-radius:4px;-webkit-box-shadow:inset 0 1px 1px rgba(0,0,0,.075);box-shadow:inset 0 1px 1px rgba(0,0,0,.075);-webkit-transition:border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;-o-transition:border-color ease-in-out .15s,box-shadow ease-in-out .15s;transition:border-color ease-in-out .15s,box-shadow ease-in-out .15s}
+
+
+.tutorSignUpBody
+{
+	background-image:  linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(Images/AboutUsPagePic.jpg);
+}
+
+.tuteeSignUpBody
+{
+	background-image:  linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(Images/AboutUsPagePic.jpg);
+}
+
+
+.article1{
+	padding-top: 50px;
+	padding-bottom: 50px;
+    background-color: white;
+    width: 80%;
+}
+
+.myform{
+	
+    width: 80%;
+}
+
+.wholeform{
+    
+}
+
+.h22{
+    text-align: center;
+}
+
+
+.button2{
+    color: black;
+    background-color: wheat;
+}
+
+.sameline{
+    justify-content: space-between;
+    display: flex;
+}
+.forget{
+    text-align: right;
+    position: relative;
+    right: -140;
+}
+.account{
+ text-align: left;
+ position: relative;
+ left: -6;    
+}
+
+.headersignup{
+    height: 25%;
+	font-size: 20px;
+}
+
+.textarea1{
+    height:150;
+    width:450;
+}
+
+/*-----------------------------------------*/
+/* TUTOR+TUTEE SIGNUP+LOGIN */
+/*-----------------------------------------*/
+
+
+
+
+
+
+
+
+
+/*-----------------------------------------*/
+/* BOOKING PAGE */
+/*-----------------------------------------*/
+.bookingPageBody header{
+    background-image:  linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(Images/bookingPagePic.jpg);
+    background-size:cover;
+    height: 275px;
+}
+
+
+.bookingPageBody .site-footer{
+    background-image:  linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(Images/bookingPagePic.jpg);
+    background-size: cover;
+}
+
+
+/*--------FORM----------*/
+
+* {
+    margin: 0;
+    padding: 0
+}
+
+html {
+    height: 100%
+}
+
+#grad1 {
+    
+}
+
+.multiStepForm
+{
+    background-color:antiquewhite;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#msform {
+    text-align: center;
+    position: relative;
+    margin-top: 20px
+}
+
+#msform fieldset .form-card {
+    background: white;
+    border: 0 none;
+    border-radius: 0px;
+    box-shadow: 0 2px 2px 2px rgba(0, 0, 0, 0.2);
+    padding: 20px 40px 30px 40px;
+    box-sizing: border-box;
+    width: 94%;
+    margin: 0 3% 20px 3%;
+    position: relative
+}
+
+#msform fieldset {
+    background: white;
+    border: 0 none;
+    border-radius: 0.5rem;
+    box-sizing: border-box;
+    width: 100%;
+    margin: 0;
+    padding-bottom: 20px;
+    position: relative
+}
+
+#msform fieldset:not(:first-of-type) {
+    display: none
+}
+
+#msform fieldset .form-card {
+    text-align: left;
+    color: #9E9E9E
+}
+
+#msform input,
+#msform textarea {
+    padding: 0px 8px 4px 8px;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    border-radius: 0px;
+    margin-bottom: 25px;
+    margin-top: 2px;
+    width: 100%;
+    box-sizing: border-box;
+    font-family: montserrat;
+    color: #2C3E50;
+    font-size: 16px;
+    letter-spacing: 1px
+}
+
+#msform input:focus,
+#msform textarea:focus {
+    -moz-box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    border: none;
+    font-weight: bold;
+    border-bottom: 2px solid skyblue;
+    outline-width: 0
+}
+
+#msform .action-button {
+    width: 100px;
+    background: #735d40;
+    font-weight: bold;
+    color: white;
+    border: 0 none;
+    border-radius: 0px;
+    cursor: pointer;
+    padding: 10px 5px;
+    margin: 10px 5px
+}
+
+#msform .action-button:hover,
+#msform .action-button:focus {
+    box-shadow: 0 0 0 2px white, 0 0 0 3px #735d40
+}
+
+#msform .action-button-previous {
+    width: 100px;
+    background: #616161;
+    font-weight: bold;
+    color: white;
+    border: 0 none;
+    border-radius: 0px;
+    cursor: pointer;
+    padding: 10px 5px;
+    margin: 10px 5px
+}
+
+#msform .action-button-previous:hover,
+#msform .action-button-previous:focus {
+    box-shadow: 0 0 0 2px white, 0 0 0 3px #616161
+}
+
+select.list-dt {
+    border: none;
+    outline: 0;
+    border-bottom: 1px solid #ccc;
+    padding: 2px 5px 3px 5px;
+    margin: 2px
+}
+
+select.list-dt:focus {
+    border-bottom: 2px solid #735d40
+}
+
+.card {
+    z-index: 0;
+    border: none;
+    border-radius: 0.5rem;
+    position: relative
+}
+
+.fs-title {
+    font-size: 25px;
+    color: #2C3E50;
+    margin-bottom: 10px;
+    font-weight: bold;
+    text-align: left
+}
+
+#progressbar {
+    margin-bottom: 30px;
+    overflow: hidden;
+    color: lightgrey
+}
+
+#progressbar .active {
+    color: #000000
+}
+
+#progressbar li {
+    list-style-type: none;
+    font-size: 12px;
+    width: 33.3%;
+    float: left;
+    position: relative
+}
+
+#progressbar #account:before {
+    content: "\f023"
+}
+
+
+#progressbar #payment:before {
+    content: "\f09d"
+}
+
+#progressbar #confirm:before {
+    content: "\f00c"
+}
+
+#progressbar li:before {
+    width: 50px;
+    height: 50px;
+    line-height: 45px;
+    display: block;
+    font-size: 18px;
+    color: #ffffff;
+    background: lightgray;
+    border-radius: 50%;
+    margin: 0 auto 10px auto;
+    padding: 2px
+}
+
+#progressbar li:after {
+    content: '';
+    width: 100%;
+    height: 2px;
+    background: lightgray;
+    position: absolute;
+    left: 0;
+    top: 25px;
+    z-index: -1;
+}
+
+#progressbar li.active:before,
+#progressbar li.active:after {
+    background: #735d40;
+}
+
+.radio-group {
+    position: relative;
+    margin-bottom: 25px
+}
+
+.radio {
+    display: inline-block;
+    width: 204;
+    height: 104;
+    border-radius: 0;
+    background: #735d40;
+    box-shadow: 0 2px 2px 2px rgba(0, 0, 0, 0.2);
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 8px 2px
+}
+
+.radio:hover {
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.3)
+}
+
+.radio.selected {
+    box-shadow: 1px 1px 2px 2px rgba(0, 0, 0, 0.1)
+}
+
+.fit-image {
+    width: 100%;
+    object-fit: cover
+}
+
+.selectTime{
+    margin-top: 20px;
+}
+
+/*-----------------------------------------*/
+/* BOOKING PAGE */
+/*-----------------------------------------*/
+
+
+
+/*-----------------------------------------*/
+/* ABOUT US PAGE */
+/*-----------------------------------------*/
+.aboutUsBody{
+    background-image:  linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(Images/AboutUsPagePic.jpg);
+    
+}
+/*****ABOUT US TEXT BOX**********/
+.aboutBox{
+    color: aliceblue; padding-top: 350px;
+}
+
+
+/****INDIVIDUAL DESCRIPTION************/
+.individualDescription{
+    background-color:beige;
+}
+.descriptionContainer{
+    padding-bottom: 100px;padding-top: 100px;
+}
+
+.portraitPic{
+    height: 100px; width: 100px; border-radius: 100%;
+}
+/***individual color**/
+.IndividualColor{
+    background-color: white;
+    
+    
+}
+
+
+/***************** Upcoming Sessions page ***************/
+
+
+/**** Upcomming Sessions style ************/
+
+.UpcomingSessionsBody header{
+    background-image:  linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(Images/bookingPagePic.jpg);
+    background-size:cover;
+    height: 275px;
+}
+
+
+.UpcomingSessionsBody .site-footer{
+    background-image:  linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(Images/bookingPagePic.jpg);
+    background-size: cover;
+}
+
+
+.UpcommingSessions{
+    background-color:beige;
+}
+
+.Cards{
+    padding-bottom: 100px;
+    padding-top: 90px;
+}
+
+.Cards h1{
+    text-align: center;
+    color: black;
+    padding: 25px;
+    font-weight: bold;  
+}
+
+.card-img-top{
+    border-radius: 30%;
+    padding: 10px;
+}
+
+
+.card-body h4{
+    
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+
+
+
+
+/************** Schedules style **************/
+.Schedules{
+    background-color:floralwhite;
+    padding-bottom: 100px;
+    padding-top: 5px;
+    
+}
+
+
+
+
+/***************** Tutor Profile page (Start with Molham's style) ***************/
+
+/**** TutorInformation style (First div) ************/
+
+
+.TutorProfileBody header{
+    background-image:  linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(Images/bookingPagePic.jpg);
+    background-size:cover;
+    height: 275px;
+}
+
+
+.TutorProfileBody .site-footer{
+    background-image:  linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(Images/bookingPagePic.jpg);
+    background-size: cover;
+}
+
+
+
+.TutorInformation{
+    background-color:beige;
+    padding-bottom: 5px;
+}
+
+.Info{
+    padding-bottom: 100px;
+    padding-top: 50px;
+}
+
+.Info h1{
+    text-align: center;
+    color: black;
+    font-weight: bold;  
+    font-size: 40px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.section-title h2{
+    font-weight: bold; 
+}
+
+
+.img-fluid {
+    border-radius: 60px;
+}
+
+
+
+/**** Courses Taught style (Second div) ************/
+.CoursesTaught{
+    background-color:floralwhite;
+    padding-bottom: 100px;
+    padding-top: 50px;
+     
+}
+
+
+
+.Info2 h1{
+    
+   text-align: center;
+    color: black; 
+    font-size: 40px;
+    padding-bottom: 25px;
+    padding-top: 40px; 
+    
+} 
+
+
+.card-body{
+    
+    font-size: 18px;
+}   
+
+
+
+
+
+
+
+/**** TutorReviews style (Third div) ************/
+.TutorReviews{
+    background-color:beige;
+    padding-bottom: 100px;
+	padding-top: 50px;
+}
+
+
+.Info3 h1{
+    
+   text-align: center;
+    color: black; 
+    font-size: 40px;
+    padding-bottom: 2px;
+    padding-top: 40px; 
+    
+} 
+
+
+/**** The Style for the boxes in the tutor page ************/
+
+a {
+    text-decoration: none !important;
+    color: inherit
+}
+
+a:hover {
+    color: #455A64
+}
+
+.card-for-reviews{
+    width: 1100px;
+    border-radius: 5px;
+    background-color: #fff;
+    padding-left: 60px;
+    padding-right: 60px;
+    margin-top: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.card-for-reviews2{
+    width: 1100px;
+    border-radius: 5px;
+    background-color: #fff;
+    padding-left: 60px;
+    padding-right: 60px;
+    margin-top: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px
+}
+
+.rating-box {
+    width: 130px;
+    height: 130px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: #FBC02D;
+    color: #fff
+}
+
+.rating-label {
+    font-weight: bold
+}
+
+.rating-bar {
+    width: 300px;
+    padding: 8px;
+    border-radius: 5px
+}
+
+.bar-container {
+    width: 100%;
+    background-color: #f1f1f1;
+    text-align: center;
+    color: white;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-bottom: 5px
+}
+
+.bar-5 {
+    width: 70%;
+    height: 13px;
+    background-color: #FBC02D;
+    border-radius: 20px
+}
+
+.bar-4 {
+    width: 30%;
+    height: 13px;
+    background-color: #FBC02D;
+    border-radius: 20px
+}
+
+.bar-3 {
+    width: 20%;
+    height: 13px;
+    background-color: #FBC02D;
+    border-radius: 20px
+}
+
+.bar-2 {
+    width: 10%;
+    height: 13px;
+    background-color: #FBC02D;
+    border-radius: 20px
+}
+
+.bar-1 {
+    width: 0%;
+    height: 13px;
+    background-color: #FBC02D;
+    border-radius: 20px
+}
+
+td {
+    padding-bottom: 10px
+}
+
+.star-active {
+    color: #FBC02D;
+    margin-top: 10px;
+    margin-bottom: 10px
+}
+
+.star-active:hover {
+    color: #F9A825;
+    cursor: pointer
+}
+
+.star-inactive {
+    color: #CFD8DC;
+    margin-top: 10px;
+    margin-bottom: 10px
+}
+
+.blue-text {
+    color: #0091EA
+}
+
+.content {
+    font-size: 18px
+}
+
+.profile-pic {
+    width: 90px;
+    height: 90px;
+    border-radius: 100%;
+    margin-right: 30px
+}
+
+.pic {
+    width: 80px;
+    height: 80px;
+    margin-right: 10px
+}
+
+.vote {
+    cursor: pointer
+}
+
+
+
+/**** The End of Molham's Style ************/
+
+
+
+/*-----------------------------------------*/
+/* SEARCH COURSE */
+/*-----------------------------------------*/
+.SearchPageBody header{
+    background-image:  linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(Images/bookingPagePic.jpg);
+    background-size:cover;
+    height: 275px;
+}
+
+
+.SearchPageBody .site-footer{
+    background-image:  linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(Images/bookingPagePic.jpg);
+    background-size: cover;
+}
+
+.tutorListHeading
+{
+	padding-top: 50px;
+}
+/********************
+    TUTOR LIST
+*********************/
+.employers-list-bg {
+  padding: 180px 0px 80px 0px;
+  background-image: url("../images/employers-list-bg.jpg");
+  background-size: cover;
+  position: relative;
+  background-position: center center;
+}
+
+.employers-list-img img {
+  max-width: 80px;
+  -webkit-box-shadow: 0 0 5px 0px #d7d7d7;
+          box-shadow: 0 0 5px 0px #d7d7d7;
+}
+
+.employers-icons li {
+  margin: 0px !important;
+}
+
+.employers-details-bg {
+  padding: 180px 0px 80px 0px;
+  background-image: url("../images/employers-details-bg.jpg");
+  background-size: cover;
+  position: relative;
+  background-position: center center;
+}
+
+.employers-details {
+  border-top: 1px solid #eeeeee;
+  border-bottom: 1px solid #eeeeee;
+}
+
+.employers-share-job li a {
+  height: 40px;
+  width: 40px;
+  color: #777777;
+  text-align: center;
+  font-size: 19px;
+  display: inline-block;
+  line-height: 38px;
+  border-radius: 4px;
+  border: 1px solid #dddddd;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  margin: 6px 0;
+  transition: all 0.5s;
+}
+
+.employers-share-job li a:hover {
+  background-color: #ff4f6c;
+  color: #ffffff;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  border-color: #ff4f6c;
+  -webkit-transform: translateY(-3px);
+          transform: translateY(-3px);
+  -webkit-box-shadow: 0 3px 20px -8px #000000;
+          box-shadow: 0 3px 20px -8px #000000;
+}
+
+@media (min-width: 200px) and (max-width: 768px) {
+  .m-14 {
+    margin: 14px 0px;
+  }
+}
+
+@media (max-width: 425px) {
+  .employers-details-time h6 {
+    text-align: center !important;
+  }
+  .employers-details-item-border {
+    margin-bottom: 1rem !important;
+    margin-top: 1rem !important;
+  }
+}
+
+.list-grid-item {
+    background-color:white;
+  border: 1px solid #ececec;
+  border-radius: 6px;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.list-grid-item:hover {
+  -webkit-box-shadow: 0 0 20px 0px white;
+          box-shadow: 0 0 20px 0px white;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  
+}
+
+.left-sidebar .card-body {
+    border-bottom: 1px solid #ececec;
+}
+
+.custom-control {
+    margin: 11px 20px;
+}
+
+.card-header {
+   
+    margin-bottom: 0 !important;
+}
+
+.pagination.job-pagination .page-link {
+  border-radius: 50% !important;
+  margin: 0 4px;
+  height: 46px;
+  width: 45px;
+  line-height: 29px;
+  text-align: center;
+  color: #777777;
+}
+
+.page-item.active .page-link {
+  background-color: #ff4f6c;
+  border-color: #ff4f6c;
+  color: #ffffff !important;
+}
+
+.fontSize {
+    font-size: 19px;
+}
+
+/********************
+  END TUTOR LIST
+*********************/
+/*-----------------------------------------*/
+/* END SEARCH COURSE */
+/*-----------------------------------------*/
+
+
+/*-----------------------------------------*/
+/* FOOTER PAGE */
+/*-----------------------------------------*/
+
+
+/*** footer style dont touch anything in here**/
+.site-footer
+{
+  background-color:#rgba(0,0,0,0.6);
+  padding:45px 0 20px;
+  font-size:15px;
+  line-height:24px;
+  opacity: 1; 
+}
+.site-footer hr
+{
+  border-top-color:#bbb;
+  opacity:0.5
+}
+.site-footer hr.small
+{
+  margin:20px 0
+}
+.site-footer h6
+{
+  color:#fff;
+  font-size:16px;
+  text-transform:uppercase;
+  margin-top:5px;
+  letter-spacing:2px
+}
+.site-footer a
+{
+  color:#fff;
+}
+.text-justify{
+    color: #fff;
+}
+.copyright-text{
+    color: #fff;
+}
+.site-footer a:hover
+{
+  color:#fff;
+  text-decoration:none;
+}
+.footer-links
+{
+  padding-left:0;
+  list-style:none
+}
+.footer-links li
+{
+  display:block
+}
+.footer-links a
+{
+  color:#fff;
+}
+.footer-links a:active,.footer-links a:focus,.footer-links a:hover
+{
+  color:#fff;
+  text-decoration:none;
+}
+.footer-links.inline li
+{
+  display:inline-block
+}
+.site-footer .social-icons
+{
+  text-align:right
+}
+.site-footer .social-icons a
+{
+  width:40px;
+  height:40px;
+  line-height:40px;
+  margin-left:6px;
+  margin-right:0;
+  border-radius:100%;
+  background-color:#33353d
+}
+.copyright-text
+{
+  margin:0
+}
+@media (max-width:991px)
+{
+  .site-footer [class^=col-]
+  {
+    margin-bottom:30px
+  }
+}
+@media (max-width:767px)
+{
+  .site-footer
+  {
+    padding-bottom:0
+  }
+  .site-footer .copyright-text,.site-footer .social-icons
+  {
+    text-align:center
+  }
+}
+.social-icons
+{
+  padding-left:0;
+  margin-bottom:0;
+  list-style:none
+}
+.social-icons li
+{
+  display:inline-block;
+  margin-bottom:4px
+}
+.social-icons li.title
+{
+  margin-right:15px;
+  text-transform:uppercase;
+  color:#96a2b2;
+  font-weight:700;
+  font-size:13px
+}
+.social-icons a{
+  background-color:#eceeef;
+  color:#818a91;
+  font-size:16px;
+  display:inline-block;
+  line-height:44px;
+  width:44px;
+  height:44px;
+  text-align:center;
+  margin-right:8px;
+  border-radius:100%;
+  -webkit-transition:all .2s linear;
+  -o-transition:all .2s linear;
+  transition:all .2s linear
+}
+.social-icons a:active,.social-icons a:focus,.social-icons a:hover
+{
+  color:#fff;
+  background-color:#29aafe
+}
+.social-icons.size-sm a
+{
+  line-height:34px;
+  height:34px;
+  width:34px;
+  font-size:14px
+}
+.social-icons a.facebook:hover
+{
+  background-color:#3b5998
+}
+.social-icons a.twitter:hover
+{
+  background-color:#00aced
+}
+.social-icons a.linkedin:hover
+{
+  background-color:#007bb6
+}
+.social-icons a.dribbble:hover
+{
+  background-color:#ea4c89
+}
+@media (max-width:767px)
+{
+  .social-icons li.title
+  {
+    display:block;
+    margin-right:0;
+    font-weight:600
+  }
+}
+
+/*-----------------------------------------*/
+/* END FOOTER PAGE */
+/*-----------------------------------------*/
+
+/*-----------------------------------------*/
+/* ADMIN PANEL*/
+/*-----------------------------------------*/
+.pageBG
+{
+    height: 100%;
+}
+
+.adminSideBar
+{
+    height:100%;
+    background-color:#2A9C9D;
+}
+
+.adminTableColor
+{
+   background-color:#2A9C9D; 
+}
+
+.adminBody
+{
+    height:100%;
+}
+
+.adminPage
+{
+    background-color:#FFFDC4;
+}
+
+.adminTitle
+{
+    height:10%;
+    align-content: center;
+    background-color:#F98441;
+}
+
+.adminText
+{
+    font-size: 48px;
+    color:#FFFDC4;
+}
+
+.adminTextMedium
+{
+    font-size: 32px;
+    color:#FFFDC4;
+}
+
+.adminTextXL
+{
+    font-size:54px;
+    color:#FFFDC4;
+}
+
+.adminNav
+{
+    height:10%;
+    background-color:#2A9C9D;
+    
+}
+
+.adminNav2
+{
+    height:10%;
+    
+}
+
+.adminLogo
+{
+    height: 100px;
+    width: 100px;
+    float: left;
+}
+
+.adminHover:hover
+{
+    background-color:#F98441;
+}
+
+.adminTableSpace
+{
+    height:65%;
+}
+
+.adminButton
+{
+    height:10%; 
+    
+}
+
+.adminButton:hover
+{
+    background-color:#F98441;
+}
+
+.adminTextAlign
+{
+    display:inline-block;
+}
+
+.adminTableZone
+{
+    background-color:whitesmoke;
+}
+
+.adminSpace
+{
+    height:18%;
+}
+
+.adminReturnArea
+{
+    height:6%;
+    
+}
+
+.adminReturn:hover
+{
+    background-color:#F98441;
+}
+
+.adminTitleSpace
+{
+    height:10%;
+}
+
+.adminTable0
+{
+    max-width:600px;
+}
